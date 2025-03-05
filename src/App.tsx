@@ -82,7 +82,7 @@ export const App: React.FC = () => {
               setSortBy(SortType.none); // Set to 'none' for reset
               setReverse(false);
             }}
-            hidden={sortBy === SortType.none && !reverse}
+            // hidden={sortBy === SortType.none && !reverse}
           >
             Reset
           </button>
